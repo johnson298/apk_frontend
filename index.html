@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light">
+    <header class=" bg-green">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-green navbar-custom w-100">
+                    <a class="navbar-brand text-white" href="#">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="input-group search-navbar">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <nav class="">
+                <ol class="breadcrumb bg-light">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="box-download">
+                            <div class="img">
+                                <img src="./images/app.jpg" alt="">
+                            </div>
+                            <div class="box-download__content">
+                                <div class="description">
+                                    <h4 class="title">Lorem ipsum dolor sit amet Lorem ipsum dolor.</h4>
+                                    <p class="mb-1"><span class="text-success">1.1.0</span> for Android</p>
+                                    <h6 class="text-uppercase text-muted mb-1">Lorem ipsum dolor sit amet.</h6>
+                                    <div class="vote">
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                        <span class="text-muted">(4.9/5)</span>
+                                        <span class="text-muted">(1200)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-download">
+                                <button class="btn btn-success">DOWNLOAD FILE APK (500MB)</button>
+                            </div>
+                        </div>
+
+                        <div class="slider-image-app mt-3">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/slider.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/slider.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/slider.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="description mt-3">
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab amet animi blanditiis consectetur cupiditate doloribus eius eligendi esse, et exercitationem fuga id illum nam nesciunt nisi nostrum odit porro possimus quod ratione sint tenetur totam, unde veritatis! Eius eligendi laborum nostrum sapiente similique velit veniam. Alias, culpa debitis doloremque dolorum enim et ex explicabo inventore laborum mollitia nisi odit recusandae rem sint tempora velit veniam voluptatum! Earum, recusandae, soluta. Amet cumque distinctio, doloremque ex fuga mollitia obcaecati rem tempora voluptates voluptatibus? Natus omnis, ratione. Assumenda dolor, harum id illum molestiae non, obcaecati odio quam sit tempore, totam voluptates. Ipsum.</p>
+                            <p class="m-0"><a href="#" class="text-success">Show more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h6>Lorem ipsum dolor sit amet.</h6>
+                        <div class="list-tag">
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                            <button type="button" class="btn btn-outline-success mr-1 mb-2">Online</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Category:</h6>
+                                <p>Free action Game</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Last version:</h6>
+                                <p>11.2.1</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Publish date:</h6>
+                                <p>20-10-2020</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Update by:</h6>
+                                <p>JohnSon.dev</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Available on:</h6>
+                                <p><img src="./images/chplay.jpg" alt="" width="100"></p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Requirements:</h6>
+                                <p>Android 11+</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>Report:</h6>
+                                <p>Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h6>:</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="my-3">Previous version</h5>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-version mb-3">
+                            <div class="card-body p-2">
+                                <h6 class="title-download d-flex justify-content-between">
+                                    <span>V1.40.1</span>
+                                    <span class="cursor-pointer" data-toggle="modal" data-target="#detailApp"><i class="fas fa-ellipsis-v text-muted"></i></span>
+                                </h6>
+                                <small class="tag tag-success text-success">APK</small>
+                                <p class="mb-1 text">Lorem ipsum dolor sit amet.</p>
+                                <p class="mb-1 text">2020-20-20</p>
+                                <div class="d-flex justify-content-between">
+                                    <span>10.8MB</span>
+                                    <span class=""><i class="far fa-arrow-alt-circle-down text-success"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="my-3">Lorem ipsum dolor sit.</h5>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-internal mb-3">
+                            <div class="card-body p-2">
+                                <div class="img">
+                                    <img src="./images/app1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6>Clash Of Clan</h6>
+                                    <p>Lorem ipsum dolor.</p>
+                                    <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <h6 class="mb-3">Trò chơi tương tự</h6>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-internal mb-3">
+                    <div class="card-body p-2">
+                        <div class="img">
+                            <img src="./images/app1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Clash Of Clan</h6>
+                            <p>Lorem ipsum dolor.</p>
+                            <span class="stars">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success d-block w-100">Xem thêm</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-success mt-5 py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="text-footer">
+                        <h5 class="text-white">Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="text-footer">
+                        <h5 class="text-white">Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="text-footer">
+                        <h5 class="text-white">Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="text-footer">
+                        <h5 class="text-white">Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="detailApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><strong>Perfect World</strong> 1.316.0 (42)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="ver-info-m">
+                        <p><strong>Cập nhật vào: </strong>2020-06-17</p>
+                        <p><strong>Uploaded by: </strong>احمد الحلوي</p>
+                        <p><strong>Yêu cầu Android: </strong>Android 4.4+ (Kitkat, API 19)</p>
+                        <p><strong>Chữ ký: </strong>7c18e4ccb6be4c865cbb5d0d4fe9c8c9eff07aea
+                            <a rel="nofollow" title="Perfect World 1.316.0(42) đã xác nhận an toàn" href="/vn/faq-safe.html" class="safe-link-version popsafe-open" data-fancybox="" data-type="iframe"><img alt="Perfect World 1.316.0(42) đã xác nhận an toàn" src="https://static.apkpure.com/www/static/imgs/icon-verified_v2.png" width="16"></a>
+                        </p>
+                        <p><strong>Screen DPI: </strong>120-640dpi</p>
+                        <p><strong>Architecture: </strong>armeabi-v7a, x86</p>
+                        <p><strong>OBB: </strong>main.obb, patch.obb</p>
+                        <p><strong>Tệp SHA1: </strong>a4d4c063bb7d20bea8d07cb0a1b242c1a442c459</p>
+                        <p><strong>Dung lượng tệp: </strong>3.7 GB</p>
+                        <p><strong>Có gì mới: </strong></p>
+                        <div class="ver-whats-new v5ee97ea6b327cd94ce5e5027" style="display: block;">1. New  class: Assassin<br>2. New dungeons: Molten Gate, Molten Core and Black Kraken<br>3. New Artifact system<br>4. New legendary and hidden quests<br>5. Upgraded Homestead<br>6. New equipment: Sack<br>7. New Cultivation Level: Formless and Fate<br>8. New gameplay in Path of Five: Elemental Lord</div>
+                        <p><a class="btn btn-success down" href="#">Tải về</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
